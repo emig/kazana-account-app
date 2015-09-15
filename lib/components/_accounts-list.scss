@@ -1,0 +1,49 @@
+@import '~styles/app.scss';
+
+.accounts__list--cards {
+  @include grid-block;
+  @include grid-size(12);
+  @include grid-wrap(true);
+  padding: 0;
+}
+
+.accounts__list--empty {
+  @include grid-block;
+  @include grid-orient(vertical);
+  @include grid-size(expand);
+}
+
+.accounts__list--empty .accounts__list__notice {
+  @include grid-content;
+  @include grid-size(expand);
+  @include card-container;
+  padding: 2rem;
+  text-align: center;
+  color: $gray;
+}
+
+.accounts__list--empty .accounts__list_notice__title {
+  font-size: 2rem;
+}
+
+.accounts__list--cards .accounts__list__account {
+  margin-right: 0.33rem;
+  @include grid-content(2);
+  @include card-container;
+  // @include card-container(
+  //   $background: #fff, // Background color
+  //   $color: #000, // Text color
+  //   $border: 1px solid #000, // Border
+  //   $radius: 4px, // Border radius
+  //   $shadow: 0 4px 10px black, // Box shadow
+  //   $padding: 1rem,
+  //   $margin: 1rem // Margin bottom
+  // );
+}
+
+.accounts__list--cards .accounts__list__account__image {
+  // height: 0;
+  // width: 100%;
+  // padding-bottom: 50%;
+  border-radius: 50%;
+}
