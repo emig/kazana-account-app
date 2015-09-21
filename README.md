@@ -1,12 +1,11 @@
 # kazana-account-app
 
+An account management app for Kazana.
+
 [![Build Status](https://img.shields.io/travis/eHealthAfrica/kazana-account-app.svg?style=flat-square)](https://travis-ci.org/eHealthAfrica/kazana-account-app)
 [![Dependency Status](https://img.shields.io/david/eHealthAfrica/kazana-account-app.svg?style=flat-square)](https://david-dm.org/eHealthAfrica/kazana-account-app)
 [![Dependency Status](https://img.shields.io/david/dev/eHealthAfrica/kazana-account-app.svg?style=flat-square)](https://david-dm.org/eHealthAfrica/kazana-account-app)
-
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
-
-An account management app for Kazana.
 
 **WARNING: This is a WORK IN PROGRESS and is not consdidered production ready. Expect breaking changes**
 
