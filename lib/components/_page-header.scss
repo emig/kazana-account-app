@@ -1,0 +1,66 @@
+@import '~styles/app.scss';
+
+.page-header {
+  padding: 2rem;
+  border-bottom: 1px solid $gray-light;
+  @include grid-block;
+  @include grid-orient(horizontal);
+  @include grid-size(shrink);
+}
+
+.page-header .icon {
+  margin-right: 0.5rem; 
+}
+
+.page-header .button {
+  // @extend %button;
+  // @include button-size(
+  //   $size: medium, // tiny, small, medium, or large
+  //   $expand: false
+  // );
+  //
+  // @include button-style(
+  //   $background: $primary-color, // Background color
+  //   $background-hover: #fff, // Background color on hover. Use "auto" to generate automatically
+  //   $color: #000, // Text color
+  //   $style: hollow // Can be solid or hollow
+  // );
+}
+
+.page-header .buttons {
+  @include grid-content;
+  @include grid-size(shrink);
+}
+
+.page-header .buttons .button {
+  margin-bottom: 0;
+}
+
+.page-header__title {
+  @include grid-content;
+  @include grid-size(expand);
+  @include grid-orient(vertical);
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+}
+
+
+.dashboard .page-header .icon {
+  @extend .fa-tachometer; 
+}
+
+.accounts .page-header .icon {
+  @extend .fa-users; 
+}
+
+.account .page-header .icon {
+  @extend .fa-user; 
+}
+
+.page-header.page-header--loading .page-header__title .icon {
+  @extend .fa-spinner;
+  @extend .fa-spin;
+}
+
+

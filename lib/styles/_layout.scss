@@ -1,0 +1,29 @@
+.frame {
+  @include grid-frame;
+}
+
+.content {
+  @include grid-block;
+  @include grid-size(expand);
+  @include grid-orient(vertical);
+}
+
+.content__main {
+  @include grid-block;
+  @include grid-orient(vertical);
+  @include grid-size(expand);
+}
+
+.content__main__body {
+  padding: 2rem;
+}
+
+.footer {
+  @include grid-content;
+  @include grid-size(shrink);
+  padding: 2rem 0rem 1rem 2rem;
+}
+
+.footer p {
+  margin: 0;
+}

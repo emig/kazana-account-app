@@ -1,0 +1,56 @@
+{
+  "common": {
+    "app": {
+      "name": "Kazana Account"
+    },
+    "copyright": "© eHealthAfrica 2015",
+    "dashboard": "Dashboard",
+    "accounts": "Accounts",
+    "account": "Account",
+    "signOut": "Sign Out",
+    "save": "Save",
+    "password": "Password",
+    "email": "Email",
+    "name": "Name",
+    "signIn": {
+      "username": "Username",
+      "password": "Password",
+      "signIn": "Sign In"
+    }
+  },
+  "accounts": {
+    "addAccount": "Add account",
+    "accountsList": {
+      "nothingHere": "Nothing here :(",
+      "createYourFirstAccount": "Create your first Account now!"
+    },
+    "account": {
+      "form": {
+        "fullName": {
+          "label": "Full Name",
+          "hint": "e.g. Jane Doe"
+        },
+        "email": {
+          "label": "Email",
+          "hint": "e.g jane@example.com"
+        },
+        "password": {
+          "label": "Password",
+          "hint": "Enter a strong password"
+        }
+      },
+      "loading": "Loading Account...",
+      "newAccount": "New Account"
+    }
+  },
+  "dashboard": {
+    "intro": "Welcome to the Kazana Accounts admin dashboard",
+    "accountCount": "You have __count__ account",
+    "accountCount_plural": "You have __count__ acounts"
+  },
+  "forbidden": {
+    "header": "Forbidden",
+    "message": "Message"
+  }
+    
+}

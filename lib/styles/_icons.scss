@@ -1,0 +1,14 @@
+@import '~font-awesome/scss/font-awesome.scss';
+
+.icon {
+  display: inline;
+  @extend .fa;
+  &:before {
+    font-family: 'FontAwesome'
+  }
+}
+
+.loading .icon {
+  @extend .fa-spinner;
+  @extend .fa-spin;
+}
