@@ -12,4 +12,4 @@ before_install:
 before_script:
   - npm prune
 after_success:
-  - npm run semantic-release
+  - npm run dist && npm run semantic-release
