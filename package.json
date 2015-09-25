@@ -31,7 +31,7 @@
     "history": "^1.8.4",
     "i18next-client": "^1.10.2",
     "i18next-resource-store-loader": "0.0.2",
-    "material-ui": "^0.11.1",
+    "material-ui": "0.12.0",
     "normalize.css": "3.0.3",
     "parse-link-header": "0.4.1",
     "react": "0.13.3",
