@@ -32,7 +32,7 @@ module.exports = {
       }
     }),
     new HtmlWebpackPlugin({
-      title: 'Redux React Router Async Example',
+      title: 'Kazana Account App',
       filename: 'index.html',
       template: 'index.template.html',
       favicon: path.join(__dirname, 'assets/images/favicon.ico')
