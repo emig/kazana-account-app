@@ -1,5 +1,6 @@
 {
   "name": "kazana-account-app",
+  "version": "0.0.0-semantically-released",
   "description": "",
   "homepage": "https://github.com/eHealthAfrica/kazana-account-app",
   "author": "Matt Richards <matt.richards@ehealthnigeria.org>",
