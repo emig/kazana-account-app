@@ -19,6 +19,7 @@
     "build": "npm run lint && npm run clean && webpack",
     "clean": "rm -rf dist",
     "deploy": "npm run dist && gh-pages -d dist",
+    "docker": "npm run lint && webpack",
     "dist": "BABEL_ENV=production npm run build -- --config webpack.config.production.js",
     "lint": "standard lib",
     "start": "npm run build && node server.js",
